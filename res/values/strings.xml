@@ -15,6 +15,32 @@
     <string name="nonePaired">No Zephyr HxM devices have been paired?</string>
     <string name="noBluetooth">No Bluetooth?</string>
     
+    <!-- Common strings -->
+    <string name="default_value">-</string>
+    <string name="default_hr_value">--- bpm</string>
+    <string name="default_speed_value">--- kmh</string>
+    <string name="default_distance_value">--- m</string>
+    
+    <!-- Bluetooth indicator -->
+    <string name="zephyr_connected">Connected to Zephyr</string>
+    <string name="zephyr_not_connected">Not connected to Zephyr</string>
+    
+    <!-- Basic Status Compound Control -->
+    <string name="heart_rate_label">Heart rate:</string>
+    <string name="speed_label">Speed:</string>
+    <string name="distance_label">Distance:</string>
+    <string name="strides_label">Strides:</string>
+    
+    <!-- RecordingFragment -->
+    <string name="timer_label">Time recorded</string>
+    <string name="record_button_start">Start Recording</string>
+    <string name="record_button_stop">Stop Recording</string>
+    
+    <string name="average_heart_rate_label">Average bpm:</string>
+    <string name="average_speed_label">Average kmh:</string>
+    <string name="average_distance_label">Total distance:</string>
+    <string name="average_strides_label">Total strides:</string>
+    
     <!--
         Some identifiers used to pass information around our application 
         Defining them within this resource ensures that each value is unique 

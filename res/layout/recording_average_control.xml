@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+    
+	<!-- History / Averages -->  
+            
+    <!-- Heart Rate -->
+    <TextView
+        android:id="@+id/average_heart_rate_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentTop="true"
+        android:text="@string/average_heart_rate_label"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+   	<TextView
+        android:id="@+id/average_heart_rate_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_alignBaseline="@+id/average_heart_rate_label"
+        android:layout_toRightOf="@+id/average_heart_rate_label"
+        android:text="@string/default_value"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+   	
+   	<!-- Speed -->
+   	<TextView
+        android:id="@+id/average_speed_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_alignBaseline="@+id/average_heart_rate_label"
+        android:layout_toRightOf="@+id/average_heart_rate_text"
+        android:text="@string/average_speed_label"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+   	<TextView
+        android:id="@+id/average_speed_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/average_heart_rate_label"
+        android:layout_toRightOf="@+id/average_speed_label"
+        android:text="@string/default_value"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+   	<!-- Distance -->
+   	<TextView
+        android:id="@+id/average_distance_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignLeft="@+id/average_heart_rate_label"
+        android:layout_below="@+id/average_heart_rate_label"
+        android:text="@string/average_distance_label"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+   	<TextView
+        android:id="@+id/average_distance_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_alignBaseline="@+id/average_distance_label"
+        android:layout_toRightOf="@+id/average_distance_label"
+        android:text="@string/default_value"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+   	
+   	<!-- Strides -->
+    <TextView
+        android:id="@+id/average_strides_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_alignBaseline="@+id/average_distance_label"
+        android:layout_alignLeft="@+id/average_speed_label"
+        android:layout_toRightOf="@+id/average_distance_text"
+        android:text="@string/average_strides_label"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+   	<TextView
+        android:id="@+id/average_strides_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/average_strides_label"
+        android:layout_toRightOf="@+id/average_strides_label"
+        android:text="@string/default_value"
+        android:textAppearance="?android:attr/textAppearanceSmall" />  	
+  
+</RelativeLayout>
